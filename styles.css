@@ -215,6 +215,10 @@ header nav ul li a {
 
 #hero-slider .hero-slide-item>img{
     filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
 } 
 
 #hero-slider .hero-slide-item .youtube-button {
@@ -631,6 +635,13 @@ footer small a {
 
 /* start: media queries */
 @media (max-width: 992px) {
+
+  #hero-slider .hero-slide-item>img{
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   object-fit: cover;
+} 
 
   h2 {
     font-size: 6rem;
