@@ -327,6 +327,79 @@ header nav ul li a {
 
 /* end: services section styles */
 
+
+div.plan{
+  border-left: 8px solid #233EDE;
+  border-right: 8px solid #233EDE;
+  border-top: none;
+  border-bottom: 8px solid #233EDE;
+  background:  #34343a;
+  display: flex;
+}
+
+h1.h1{
+  text-align: center;
+  background-color: #233EDE;
+  color: white;
+}
+
+
+.plan .content {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #49495e;
+}
+
+.plan .content2 {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #49495e;
+
+}
+
+.plan .content3{
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #49495e;
+
+}
+
+.plan .content h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.plan .content2 h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.plan .content3 h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.plan .content p {
+  font-size: 1.2rem;
+  padding: .5rem;
+}
+
+.plan .content2 p {
+  font-size: 1.2rem;
+  padding: .5rem;
+}
+
+.plan .content3 p {
+  font-size: 1.2rem;
+  padding: .5rem;
+}
+
 /* start: trainers section styles */
 #trainers {
   background: rgb(63, 63, 202);
@@ -635,6 +708,21 @@ footer small a {
 
 /* start: media queries */
 @media (max-width: 992px) {
+  div.plan{
+    border-left: 8px solid #233EDE;
+    border-right: 8px solid #233EDE;
+    border-top: none;
+    border-bottom: 8px solid #233EDE;
+    background:  #34343a;
+    display: block;
+  }
+  
+  h1.h1{
+    text-align: center;
+    background-color: #233EDE;
+    color: white;
+    font-size: 18px;
+  }
 
   #hero-slider .hero-slide-item>img{
     background-size: cover;
