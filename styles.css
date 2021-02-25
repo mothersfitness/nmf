@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
 * {
   font-family: 'Exo 2', sans-serif;
   font-style: italic;
@@ -35,7 +37,9 @@ h1, h3, h4, h5 {
 }
 
 h2 {
-  font-size: 8rem;
+  font-size: 11rem;
+  font-family: 'Akaya Kanadaka', cursive;
+
 }
 
 h3 {
@@ -172,13 +176,13 @@ button.btn:hover{
 
 
 
-#home {
+#services {
   height: 100vh;
   width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  /* display: flex; */
+  /* -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
@@ -187,7 +191,7 @@ button.btn:hover{
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
-          flex-flow: column;
+          flex-flow: column; */
   background: url(./workoutpics1.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
   background: url(./workoutpics1.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
   background-size: cover;
@@ -197,25 +201,25 @@ button.btn:hover{
   padding-top: 5rem;
   position: relative;
   text-align: center;
-}
-
+} 
+/* 
 #home h1 {
   font-size: 9rem;
   margin: 0 .5rem;
   color: #fff;
-}
-
+} */
+/* 
 #home h3 {
   font-size: 7rem;
   color: blue;
   margin: 1rem 0;
-}
+} */
 
-#home button {
+#services button {
   margin: 2rem 0;
   font-size: 2rem;
   height: 4rem;
-  width: 14rem;
+  width: 18rem;
   background: transparent;
   border: 0.2rem solid lightblue;
   border-bottom: none;
@@ -227,36 +231,36 @@ button.btn:hover{
   font-weight: bold;
 }
 
-#home button:hover {
+#services button:hover {
   background: blue;
   color: #fff;
-}
+} 
 
-#home .icons {
+#services .icons {
   position: absolute;
   bottom: 3.5rem;
   left: 5rem;
   z-index: 1;
 }
 
-#home .icons a {
+#services .icons a {
   text-decoration: none;
   font-size: 3rem;
   margin: 0 1rem;
   color: #fff;
 }
 
-#home .icons a:hover {
+#services .icons a:hover {
   color: #aaa;
 }
 
-#home .shape-image {
+#services .shape-image {
   position: absolute;
   bottom: -1rem;
   left: 0;
 }
 
-#home .shape-image img {
+#services .shape-image img {
   height: 15rem;
   width: 100vw;
 }
@@ -329,7 +333,7 @@ button.btn:hover{
 
 /* start: services section styles */
 #services {
-  background: transparent;
+  /* background: #212122; */
 }
 
 #services .container {
@@ -347,6 +351,15 @@ button.btn:hover{
 
 #services .box h4 {
   color: #fff;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#services .box p{
+  color: white;
+  font-size: 11px;
+  letter-spacing: 3px;
 }
 /* end: services section styles */
 
