@@ -124,12 +124,14 @@
     font-size: 9rem;
     margin: 0 .5rem;
     color: #fff;
+    font-family: 'Akaya Kanadaka', cursive;
   }
   
   #home h3 {
     font-size: 7rem;
     color: blue;
     margin: 1rem 0;
+    font-family: 'Akaya Kanadaka', cursive;
   }
   
   #home button {
