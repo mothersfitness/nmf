@@ -394,21 +394,21 @@ h1.h1{
 }
 
 .plan .content h1 {
-  color: rgba(0, 0, 0, 0.719);
+  color: blue;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 1rem 0;
 }
 
 .plan .content2 h1 {
-  color: rgba(0, 0, 0, 0.719);
+  color: rgb(122, 122, 0);
   font-size: 1.5rem;
   margin: 1rem 0;
   font-weight: bold;
 }
 
 .plan .content3 h1 {
-  color: rgba(0, 0, 0, 0.719);
+  color: green;
   font-size: 1.5rem;
   margin: 1rem 0;
   font-weight: bold;
