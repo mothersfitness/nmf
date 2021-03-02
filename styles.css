@@ -372,7 +372,7 @@ h1.h1{
   text-align: center;
   border: 1px solid blue;
   border-radius: 21px;
-  margin: 21px;
+  /* margin: 21px; */
 }
 
 .plan .content2 {
@@ -381,7 +381,7 @@ h1.h1{
   text-align: center;
   border: 1px solid yellow;
   border-radius: 21px;
-  margin: 21px;
+  /* margin: 21px; */
 }
 
 .plan .content3{
@@ -390,7 +390,7 @@ h1.h1{
   text-align: center;
   border: 1px solid green;
   border-radius: 21px;
-  margin: 21px;
+  /* margin: 21px; */
 }
 
 .plan .content h1 {
@@ -418,18 +418,21 @@ h1.h1{
   font-size: 1.2rem;
   padding: .5rem;
   color: #000;
+  background: white;
 }
 
 .plan .content2 p {
   font-size: 1.2rem;
   padding: .5rem;
   color: #000;
+  background: white;
 }
 
 .plan .content3 p {
   font-size: 1.2rem;
   padding: .5rem;
   color: #000;
+  background: white;
 }
 
 /* start: trainers section styles */
@@ -741,10 +744,7 @@ footer small a {
 /* start: media queries */
 @media (max-width: 992px) {
   div.plan{
-    border-left: 8px solid #233EDE;
-    border-right: 8px solid #233EDE;
     border-top: none;
-    border-bottom: 8px solid #233EDE;
     background:  white;
     display: block;
   }
