@@ -43,6 +43,8 @@ h3 {
 
 h4 {
   font-size: 1.15rem;
+  margin: 199px;
+  font-weight: bold;
 }
 
 h5 {
@@ -1044,5 +1046,12 @@ li.login{
     text-transform: uppercase;
   }
   
+  
+h4 {
+  font-size: 1.15rem;
+  margin: 59px;
+  font-weight: bold;
+}
+
 }
 /* end: media queries */

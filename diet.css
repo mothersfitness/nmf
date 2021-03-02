@@ -85,7 +85,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 3px solid blue;
+    text-decoration: underline;
 }
 
 li.login{

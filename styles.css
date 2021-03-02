@@ -311,18 +311,18 @@ header nav ul li a {
 
 #services .container {
   margin-bottom: 4rem;
-  border: 7px solid;
+  /* border: 7px solid; */
 }
 
 #services .box {
   width: 23.5%;
-  border: 5px solid rgba(255, 255, 255, 0.692);
+  /* border: 5px solid rgba(255, 255, 255, 0.692); */
 }
 
 #services .box img {
   height: 65px;
   margin-bottom: 2rem;
-  border: 4px solid white;
+  /* border: 4px solid white; */
 }
 
 #services .box h4 {
@@ -345,8 +345,8 @@ h1.h1{
 
 
 .plan .content>img{
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 
@@ -370,7 +370,7 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 5px solid blue;
+  border: 1px solid blue;
   border-radius: 21px;
   margin: 21px;
 }
@@ -379,7 +379,7 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 5px solid yellow;
+  border: 1px solid yellow;
   border-radius: 21px;
   margin: 21px;
 }
@@ -388,7 +388,7 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 5px solid green;
+  border: 1px solid green;
   border-radius: 21px;
   margin: 21px;
 }
