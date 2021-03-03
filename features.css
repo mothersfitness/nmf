@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
 /* start: global styles */
-
-
 * {
   outline: none;
 }
@@ -28,7 +26,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 2px;
 }
 
-h1, h3, h4, h5 {
+h1, h3, h5 {
   text-transform: uppercase;
 }
 
@@ -45,6 +43,8 @@ h3 {
 
 h4 {
   font-size: 1.15rem;
+  margin: 199px;
+  font-weight: bold;
 }
 
 h5 {
@@ -84,15 +84,17 @@ a {
   font-size: 1.3rem;
 }
 
-a:hover {
+.flex a:hover {
     text-decoration: underline;
 }
 
 li.login{
   border: 2px solid lightblue;
+ 
   border-radius: 21px;
   width: 10%;
 }
+
 
 p {
   color: #7b7b7b;
@@ -133,6 +135,23 @@ section, footer {
     object-fit: cover;
 }
 
+#hero-slider .icons {
+  position: absolute;
+  /* bottom: 1.5rem; */
+  left: 3rem;
+  z-index: 1;
+}
+
+#hero-slider .icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+#hero-slider .icons a:hover {
+  color: #aaa;
+}
 
 .container {
   max-width: 1100px;
@@ -149,7 +168,6 @@ section, footer {
   text-align: center;
 }
 /* end: global styles */
-
 /* start: hero section styles */
 #hero {
   position: relative;
@@ -277,138 +295,383 @@ header nav ul li a {
 }
 /* end: hero section styles */
 
-/* start: trainers section styles */
-#trainers {
-  background: rgb(63, 63, 202);
-  background-size: cover;
+/* start: features section styles */
+
+#feature{
+  height: auto;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
 }
 
-#trainers-slider {
-  width: 90%;
-  margin: 0 auto;
-}
+#feature h1 {
+    color: #233EDE;
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  
+#feature h2 {
+    color: #233EDE;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  
+#feature .card-container {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 2rem 0;
+     position: relative;
+    bottom: 100px;
+  }
+  
+#feature .card-container .card {
+    width: 20rem;
+    height: 25rem;
+    margin: 2rem;
+    background: #fff;
+    border:  2px solid lightblue;
+    border-radius: 21px;
+  }
 
-#trainers-slider .slick-slide {
-  padding: 0 20px;
-}
+  #feature .card-container .card img {
+    width: 100%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+       border-top-left-radius: 21px;
+       border-top-right-radius: 21px;
+  }
+  
+#feature .card-container .card .content {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+#feature .card-container .card .content h1 {
+    color: #233EDE;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
 
-#trainers-slider .trainer-slider-item img {
-  width: 100%;
-}
+  #feature .card-container .card .content p {
+    font-size: 0.8rem;
+    padding: .5rem;
+  }
+  
+#feature .card-container .card .content button {
+    height: 3rem;
+    width: 14rem;
+    background: transparent;
+    border-bottom: 0.2rem solid lightblue;
+    border-top: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+#feature .card-container .card .content button:hover {
+    border: 0.2rem solid lightblue;
+    color: #fff;
+  }
 
-#trainers-slider h4 {
-  color: #fff;
-  margin-top: 2.5rem;
-}
+  #feature .card-container .card:hover {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    -webkit-box-shadow: 0 0 1rem #333;
+            box-shadow: 0 0 1rem #333;
+  }
 
-#trainers-slider p {
-  color: #fff;
-  opacity: 0.6;
-}
+/* end: features section styles */
 
-#trainers-slider .slick-prev {
-  left: -30px;
-}
+/* start: about section styles */
 
-#trainers-slider .slick-next {
-  right: -10px;
-}
+#about {
+    height: auto;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+        background-color: #212122;
+  }
+  
+#about .content {
+    width: 90vw;
+    position: relative;
+    bottom: 80px;
+  }
 
-#trainers-slider .slick-prev:before,
-#trainers-slider .slick-next:before {
-  font-size: 40px;
-}
-/* end: trainers section styles */
+  #about .content h1 {
+    font-size: 2rem;
+    margin: 3rem 0;
+    color: #fff;
+  }
 
-/* start: schedule services styles */
-#schedule-services {
-  text-align: left;
-}
+  #about .content p {
+    font-size: 1.5rem;
+    padding-right: 6rem;
+    color: white;
+  }
+  
+#about .content .buttons {
+    padding-right: 2rem;
+  }
 
-#schedule-services .flex > div {
-  width: 32%;
-  box-sizing: border-box;
-}
+  #about .content .buttons button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid rgb(63, 63, 202);
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    margin: 2rem 2rem 2rem 0;
+  }  
+  
+#about .content .buttons button:hover {
+    color: #fff;
+  }
+/* end: about section styles */
 
-#schedule-services .flex strong {
-  display: block;
-  color: #212122;
-  font-size: 0.85rem;
-  opacity: 0.6;
-  letter-spacing: 4px;
-}
+/* start gallery section styles*/
 
-.upcoming-classes-box {
-  border: 5px solid #E5E7F3;
-  padding: 4rem 2.5rem 2.5rem;
-  border-radius: 55px;
-}
+#gallery {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    height: auto;
+    width: 100vw;
+    background: #f7f7f7;
+    position: relative;
+    bottom: 180px;
+  }
+  
+#gallery h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+    margin: 2rem 0;
+  }
 
-.upcoming-classes-box h4 {
-  margin-bottom: 2rem;
-}
+  
+#gallery .image-container {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+#gallery .image-container .image {
+    height: 15rem;
+    width: 20rem;
+    margin: 2rem;
+    overflow: hidden;
+    position: relative;
+  }
 
-.upcoming-classes-box table {
-  width: 100%;
-}
+  #gallery .image-container .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+#gallery .image-container .image .info {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+#gallery .image-container .image .info button {
+    height: 4rem;
+    width: 12rem;
+    background: transparent;
+    border: 0.2rem solid rgb(63, 63, 202);
+    outline: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+#gallery .image-container .image .info button:hover {
+    background: transparent;
+    color: #fff;
+  }
+  
+  #gallery .image-container .image:hover .info {
+    bottom: 0%;
+  }
+  
+/* ends gallery section styles*/
 
-.upcoming-classes-box table tr td {
-  padding: 13px 10px 13px 0;
-  color: #7b7b7b;
-  font-size: 0.85rem;
-}
 
-.upcoming-classes-box table tr td:last-child {
-  text-align: right;
-  padding-right: 0;
-}
+/* start contact section styles*/
 
-.membership-cards-box {
-  background: #233EDE;
-  padding: 1.5rem;
-}
+#contact {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    overflow: hidden;
+    background: url(back-img.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7)));
+    background: url(back-img.jpg), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #212122;
+  }
+  
+#contact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  
+#contact form h1 {
+    color: #fff;
+    font-size: 2rem;
+  }
 
-.membership-cards-box .inner-container {
-  background: url('https://www.healthcurrents.com/wp-content/uploads/2015/08/purple-girl.jpg') top center no-repeat;
-  height: 395px;
-  padding: 2.5rem 1.5rem 1.5rem;
-}
+  #contact form input {
+    height: 3rem;
+    background: transparent;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    border: 0.2rem solid rgb(63, 63, 202);
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    width: 40vw;
+  }
+  
+#contact form input::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  
+  #contact form input:-ms-input-placeholder {
+    color: #ccc;
+  }
+  
+  #contact form input::-ms-input-placeholder {
+    color: #ccc;
+  }
+  
+  #contact form input::placeholder {
+    color: #ccc;
+  }
+  
+#contact form input:focus {
+    background: #212122;
+  }
+  
+  #contact form input[type="submit"] {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid lightblue;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background: rgb(43, 43, 82);
+    color: #fff;
+  }
+  
+  #contact form input[type="submit"]:hover {
+    background: lightblue;
+    color: #fff;
+  }
+  
+  #contact form input[type="submit"]:hover {
+    background: transparent;
+  }
+  
+#contact form textarea {
+    resize: none;
+    background: transparent;
+    outline: none;
+    padding: 1rem;
+    color: #fff;
+    border: 0.2rem solid rgb(63, 63, 202);
+    font-weight: bold;
+  }
+  
+  #contact form textarea::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  
+  #contact form textarea:-ms-input-placeholder {
+    color: #ccc;
+  }
+  
+  #contact form textarea::-ms-input-placeholder {
+    color: #ccc;
+  }
+  
+  #contact form textarea::placeholder {
+    color: #ccc;
+  }
+  
+  #contact form textarea:focus {
+    background: rgb(43, 43, 114);
+  }
+  
+#contact .image img {
+    height: 80vh;
+    width: 30vw;
+    object-fit: cover;
+  }
+/* end contact section styles*/
 
-.membership-cards-box h2 {
-  font-size: 4.5rem;
-  font-weight: 700;
-  color: #233EDE;
-  line-height: 1;
-}
-
-.membership-cards-box h2 span {
-  font-size: 1rem;
-  letter-spacing: 0;
-}
-
-.personal-trainer-box {
-  background: url('https://www.bing.com/images/blob?bcid=RNgHPJdz32wCoRHw9xGpiHpYltOf.....6w') top center no-repeat;
-  padding: 4rem 3rem 3rem;
-}
-
-.personal-trainer-box h4 {
-  margin-bottom: 2rem;
-  color: #fff;
-}
-
-.personal-trainer-box p {
-  color: #fff;
-  margin-bottom: 1.5rem;
-}
-
-.personal-trainer-box button {
-  width: 100%;
-}
-
-#schedule-services .personal-trainer-box strong {
-  color: #fff;
-}
-/* end: schedule services styles */
 
 /* start: footer section styles */
 footer {
@@ -583,6 +846,53 @@ footer small a {
 }
 /* end: search and embed video overlay styles */
 
+
+
+
+@media (max-width: 991px) {
+    /* html {
+      font-size: 50%;
+    } */
+  }
+  
+  @media (max-width: 768px) {
+    /* html {
+      font-size: 40%;
+    } */
+    #about {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    #about .image img {
+      width: 70vw;
+    }
+    #about .content {
+      text-align: center;
+    }
+    #about .content p {
+      padding: 2rem;
+    }
+    #about .content .buttons {
+      padding: 0;
+    }
+    #contact .image {
+      display: none;
+    }
+    #contact form input {
+      width: 90vw;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+
+
+
+
 /* start: media queries */
 @media (max-width: 992px) {
   div.plan{
@@ -592,6 +902,10 @@ footer small a {
     border-bottom: 8px solid #233EDE;
     background:  #34343a;
     display: block;
+  }
+
+  .hero-slide-item{
+      height: 81vh;
   }
   
   h1.h1{
