@@ -343,7 +343,7 @@ h1.h1{
   color: white;
   font-family: 'Source Code Pro', monospace;}
 
-
+/* 
 .plan .content>img{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -359,7 +359,7 @@ h1.h1{
 .plan .content3>img{
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-}
+} */
 
 .plan .content>button{
   color: black;
@@ -370,8 +370,8 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 1px solid blue;
-  border-radius: 21px;
+  border: 1px solid rgb(63, 63, 202);
+  /* border-radius: 21px; */
   /* margin: 21px; */
 }
 
@@ -379,8 +379,8 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 1px solid yellow;
-  border-radius: 21px;
+  border: 1px solid rgb(63, 63, 202);
+  /* border-radius: 21px; */
   /* margin: 21px; */
 }
 
@@ -388,8 +388,8 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 1px solid green;
-  border-radius: 21px;
+  border: 1px solid rgb(63, 63, 202);
+  /* border-radius: 21px; */
   /* margin: 21px; */
 }
 
