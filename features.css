@@ -386,7 +386,6 @@ header nav ul li a {
   
 #feature .card-container .card .content button:hover {
     border: 0.2rem solid lightblue;
-    color: #fff;
   }
 
   #feature .card-container .card:hover {
@@ -447,7 +446,7 @@ header nav ul li a {
   }  
   
 #about .content .buttons button:hover {
-    color: #fff;
+    background-color: gray;
   }
 /* end: about section styles */
 
