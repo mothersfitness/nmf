@@ -898,7 +898,7 @@ footer small a {
   }
 
   #feature .card-container {
-    width: 90vw;
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -913,7 +913,7 @@ footer small a {
 
    
 #feature .card-container .card .content button {
-  height: 2rem;
+  height: 0.5rem;
   width: 14rem;
   background: transparent;
   border-bottom: 0.2rem solid lightblue;
@@ -924,6 +924,10 @@ footer small a {
   color: white;
   font-weight: bold;
   margin: 0px 0;
+}
+   
+#feature .card-container .card{
+  justify-content: space-between;
 }
 
   @media (min-width: 768px) {
