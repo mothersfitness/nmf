@@ -230,8 +230,14 @@ ul {
 /* end: features section styles */
 
 /*end features*/
+.boton{
+  border: none;
+}
 
-
+.boton:hover{
+    background-color: rgb(48, 48, 161);
+    border-radius: 0px;
+}
 
 button {
   cursor: pointer;
@@ -854,7 +860,7 @@ footer small a {
 
   .nutri span{
     position: relative;
-    right: 13px;
+    right: 15px;
   }
 
   
@@ -898,7 +904,7 @@ footer small a {
   }
 
   #feature .card-container {
-    width: 100vw;
+    width: 96vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -927,7 +933,7 @@ footer small a {
 }
    
 #feature .card-container .card{
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
   @media (min-width: 768px) {
