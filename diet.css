@@ -56,6 +56,175 @@ ul {
   padding: 0;
 }
 
+.dtplan{
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+  left: 511px;
+  bottom: 116px;
+}
+
+.dtplan button{
+  position: relative;
+  top: 121px;
+  right: 181px;
+}
+/* 
+.line{
+  border: 2px solid blue;
+  width: 23px;
+} */
+
+.dtplan img{
+  border: 2px solid blue;
+  border-radius: 28px;
+  background-color: white;
+  margin: 5px;
+  text-align: center;
+}
+
+.dtplan h1{
+  text-align: center;
+}
+
+.nutt{
+  background-color: #eeeee4;
+}
+
+.nutri h2{
+  position: relative;
+  bottom: 81px;
+}
+
+.nutt p{
+  margin:11px 90px;
+  font-weight: bold;
+  font-size: 21px;
+} 
+
+
+.nutri span{
+  position: relative;
+  bottom: 110px;
+  font-size: 35px;
+  right: 35px;
+}
+
+.nutrition{
+  margin: 0% 91px;
+}
+
+.nutrition .nutrid{
+    display: flex;
+}
+
+/*start features*/
+
+/* start: features section styles */
+
+#feature{
+  height: auto;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: rgb(37, 34, 34);
+}
+
+#feature h1 {
+    color: #233EDE;
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  
+#feature h2 {
+    color: gray;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  
+#feature .card-container {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 2rem 0;
+     position: relative;
+    bottom: 100px;
+  }
+  
+#feature .card-container .card {
+    width: 20rem;
+    height: 25rem;
+    margin: 2rem;
+    background: #fff;
+    border:  2px solid lightblue;
+    border-radius: 21px;
+  }
+
+  #feature .card-container .card img {
+    width: 100%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+       border-top-left-radius: 21px;
+       border-top-right-radius: 21px;
+  }
+  
+#feature .card-container .card .content {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+#feature .card-container .card .content h1 {
+    color: #233EDE;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  #feature .card-container .card .content p {
+    font-size: 0.8rem;
+    padding: .5rem;
+  }
+  
+#feature .card-container .card .content button {
+    height: 3rem;
+    width: 14rem;
+    background: transparent;
+    border-bottom: 0.2rem solid lightblue;
+    border-top: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+#feature .card-container .card .content button:hover {
+    border: 0.2rem solid lightblue;
+  }
+
+  #feature .card-container .card:hover {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    -webkit-box-shadow: 0 0 1rem #333;
+            box-shadow: 0 0 1rem #333;
+  }
+
+/* end: features section styles */
+
+/*end features*/
+
+
 
 button {
   cursor: pointer;
@@ -77,6 +246,7 @@ button {
 button:hover{
     background-color: rgba(255, 255, 255, 0.164);
     font-weight: bold;
+    border-bottom: 0.2rem solid lightblue;
 }
 
 a {
@@ -411,10 +581,17 @@ header nav ul li a {
 /* end: schedule services styles */
 
 /* start: footer section styles */
-footer {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/footer-bg.jpg') top center no-repeat;
-  background-size: cover;
-  padding-bottom: 2rem;
+footer {    
+    background: url(./foot.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+    background: url(./foot.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    position: relative;
+    text-align: center;
+    object-fit: cover;
 }
 
 .footer-container {
@@ -649,6 +826,98 @@ footer small a {
   .personal-trainer-box p {
     font-size: 0.85rem;
   }
+
+  .dtplan{
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    left: 45px;
+  }
+
+  
+.nutrition .nutrid{
+  display: block;
+}
+
+
+  .nutri h2{
+    position: relative;
+    bottom: 111px;
+  }
+
+  .nutri span{
+    position: relative;
+    right: 13px;
+  }
+
+  
+  
+.nutt p{
+  margin: 1px 1px;
+  font-weight: bold;
+  font-size: 19px;
+} 
+
+.nutrition{
+  margin: 0px 5px;
+}  
+
+.dtplan{
+  display: flex;
+  justify-content: center;
+  /* position: relative;
+  left: 511px; */
+  bottom: 86px;
+}
+
+  .dtplan button{
+  position: relative;
+  top: 161px;
+  right: 155px;
+  /* justify-content: center; */
+  }
+
+  .nutrid img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #feature h2 {
+    color: gray;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    position: relative;
+    /* bottom: 100px; */
+  }
+
+  #feature .card-container {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 1rem 0;
+     position: relative;
+    bottom: 110px;
+  }
+
+   
+#feature .card-container .card .content button {
+  height: 2rem;
+  width: 14rem;
+  background: transparent;
+  border-bottom: 0.2rem solid lightblue;
+  border-top: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  margin: 0px 0;
+}
 
   @media (min-width: 768px) {
     header nav {

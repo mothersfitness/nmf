@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\testing"
+		},
+		{
+			"path": "..\\mycv"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "getbackinshape",
+		"liveServer.settings.port": 5501
+	}
+}
