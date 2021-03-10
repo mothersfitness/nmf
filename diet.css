@@ -58,16 +58,22 @@ ul {
 
 .dtplan{
   display: flex;
-  /* justify-content: center; */
+  text-align:  center;
+  justify-content: center;
   position: relative;
-  left: 511px;
+  /* left: 1%; */
   bottom: 116px;
+}
+
+.diety h2{
+  justify-content: center;
 }
 
 .dtplan button{
   position: relative;
   top: 121px;
-  right: 181px;
+  text-align: center;
+  right: 111px;
 }
 /* 
 .line{
@@ -107,7 +113,8 @@ ul {
   position: relative;
   bottom: 110px;
   font-size: 35px;
-  right: 35px;
+ right: 21px;
+  text-align: center;
 }
 
 .nutrition{
@@ -829,9 +836,9 @@ footer small a {
 
   .dtplan{
     display: flex;
-    /* justify-content: center; */
-    position: relative;
-    left: 45px;
+    justify-content: center;
+    /* position: relative;
+    left: 45px; */
   }
 
   
@@ -873,8 +880,8 @@ footer small a {
   .dtplan button{
   position: relative;
   top: 161px;
-  right: 155px;
-  /* justify-content: center; */
+  /* right: 155px; */
+  justify-content: center;
   }
 
   .nutrid img{
