@@ -54,6 +54,9 @@ ul {
   padding: 0;
 }
 
+nav ul{
+  justify-content: space-between;
+}
 
 button {
   cursor: pointer;
@@ -340,9 +343,11 @@ div.plan{
 
 h1.h1{
   text-align: center;
-  background-color: rgb(63, 63, 202);
-  color: white;
-  font-family: 'Source Code Pro', monospace;}
+  /* background-color: rgb(197, 197, 236); */
+  color: grey;
+  font-family: 'Source Code Pro', monospace;
+  margin: 15px;
+}
 
 /* 
 .plan .content>img{
@@ -371,7 +376,7 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 1px solid rgb(63, 63, 202);
+  border: 1px solid rgb(209, 209, 240);
   /* border-radius: 21px; */
   /* margin: 21px; */
 }
@@ -380,7 +385,7 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 1px solid rgb(63, 63, 202);
+  border: 1px solid rgb(209, 209, 240);
   /* border-radius: 21px; */
   /* margin: 21px; */
 }
@@ -389,7 +394,7 @@ h1.h1{
   height: 50%;
   width: 100%;
   text-align: center;
-  border: 1px solid rgb(63, 63, 202);
+  border: 1px solid rgb(209, 209, 240);
   /* border-radius: 21px; */
   /* margin: 21px; */
 }
@@ -759,9 +764,10 @@ footer small a {
   
   h1.h1{
     text-align: center;
-    background-color: #233EDE;
-    color: white;
     font-size: 18px;
+    color: grey;
+    font-family: 'Source Code Pro', monospace;
+    margin: 15px;
   }
 
   #hero-slider .hero-slide-item>img{

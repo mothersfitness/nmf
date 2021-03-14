@@ -113,12 +113,12 @@ ul {
   position: relative;
   bottom: 110px;
   font-size: 35px;
- right: 21px;
+  right: 21px;
   text-align: center;
 }
 
 .nutrition{
-  margin: 0% 91px;
+  margin: 0% 200px;
 }
 
 .nutrition .nutrid{
@@ -860,7 +860,7 @@ footer small a {
 
   .nutri span{
     position: relative;
-    right: 15px;
+    right: 4px;
   }
 
   
@@ -933,7 +933,8 @@ footer small a {
 }
    
 #feature .card-container .card{
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 39px ;
 }
 
   @media (min-width: 768px) {
