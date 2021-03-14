@@ -886,8 +886,8 @@ footer small a {
   .dtplan button{
   position: relative;
   top: 161px;
-  /* right: 155px; */
-  justify-content: center;
+  right: 95px;
+  /* justify-content: center; */
   }
 
   .nutrid img{
