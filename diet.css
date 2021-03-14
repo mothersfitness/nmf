@@ -327,6 +327,26 @@ section, footer {
   padding: 0;
 }
 
+
+
+#hero-slider .icons {
+  position: absolute;
+  left: 3rem;
+  z-index: 1;
+  bottom: 111px;
+}
+
+#hero-slider .icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+#hero-slider .icons a:hover {
+  color: #aaa;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -909,6 +929,13 @@ footer small a {
 #feature .card-container .card{
   justify-content: space-between;
   margin: 39px ;
+}
+
+  #hero-slider .icons {
+    position: absolute;
+    left: 3rem;
+    z-index: 1;
+    bottom: 0px;
 }
 
   @media (min-width: 768px) {
