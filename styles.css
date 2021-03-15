@@ -551,7 +551,7 @@ h1.h1{
 }
 
 .personal-trainer-box {
-  background: url('https://www.bing.com/images/blob?bcid=RNgHPJdz32wCoRHw9xGpiHpYltOf.....6w') top center no-repeat;
+  background: url(./personal.png); background-size: cover; filter: -100deg;
   padding: 4rem 3rem 3rem;
 }
 
