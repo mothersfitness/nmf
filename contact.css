@@ -65,7 +65,7 @@ button {
   text-align: center;
   padding: 1.25rem 3rem;
   border: 0.2rem solid lightblue;
-  border-bottom: none;
+  /* border-bottom: none; */
   border-radius: 21px;
   text-transform: uppercase;
   font-weight: 500;
@@ -170,7 +170,14 @@ section, footer {
   text-align: center;
 }
 /* end: global styles */
+.boton{
+  border: none;
+}
 
+.boton:hover{
+    background-color: rgb(48, 48, 161);
+    border-radius: 0px;
+}
 /* start: hero section styles */
 #hero {
   position: relative;
