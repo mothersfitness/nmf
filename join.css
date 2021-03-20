@@ -62,8 +62,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  border: 1px solid blue;
-  border-radius: 21px;
+ text-decoration: underline;
 }
 
 header .fa-bars {
@@ -88,8 +87,8 @@ header .logo a h1 {
   color: #fff;
 }
 
-header .logo a h1 span {
-  color: blue;
+label{
+  color: white;
 }
 
 #home {
@@ -273,7 +272,7 @@ header .logo a h1 span {
 }
 
 body {
-	background-color: #9b59b6;
+  background-color:#212122;
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	align-items: center;
@@ -549,13 +548,16 @@ body {
 	
 	.floating-btn {
 		right: 10px;
+    font-size: 16px;
+    line-height: 0px;
+    padding: 0px 0px;
 	}
 
   .social-panel h4 {
     margin: 10px 0;
     color: #97A5CE;	
     font-family: 'Muli';	
-    font-size: 11px;	
+    font-size: 8px;	
     /* line-height: 18px; */
     text-transform: uppercase;
   }
