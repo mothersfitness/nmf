@@ -491,6 +491,13 @@ h1.h1{
 }
 /* end: trainers section styles */
 
+/* start viddy*/
+.viddy{
+  padding: 10px 5px;
+}
+
+/* end viddy */
+
 /* start: schedule services styles */
 #schedule-services {
   text-align: left;
