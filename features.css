@@ -618,7 +618,7 @@ header nav ul li a {
 #gallery .image-container .image .info button {
     height: 4rem;
     width: 12rem;
-    background: transparent;
+    background: black;
     border: 0.2rem solid rgb(63, 63, 202);
     outline: none;
     font-size: 0.8rem;
