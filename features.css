@@ -498,6 +498,7 @@ header nav ul li a {
   margin: 2rem;
   overflow: hidden;
   position: relative;
+  border-radius: 21px;
 }
 
 #gallery1 .image-container .image img {
