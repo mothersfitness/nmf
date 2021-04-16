@@ -461,6 +461,96 @@ header nav ul li a {
 
 /* start gallery section styles*/
 
+#gallery1 {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: 100vw;
+  background: #0ee0;
+  position: relative;
+  bottom: 180px;
+}
+
+#gallery1 h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: blue;
+  margin: 2rem 0;
+}
+
+
+#gallery1 .image-container {
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#gallery1 .image-container .image {
+  height: 15rem;
+  width: 20rem;
+  margin: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+#gallery1 .image-container .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#gallery1 .image-container .image .info {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#gallery1 .image-container .image .info button {
+  height: 4rem;
+  width: 12rem;
+  background: transparent;
+  border: 0.2rem solid rgb(63, 63, 202);
+  outline: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+#gallery1 .image-container .image .info button:hover {
+  background: transparent;
+  color: #fff;
+}
+
+#gallery1 .image-container .image:hover .info {
+  bottom: 0%;
+}
+
+/* ends gallery section styles*/
+
+
+/* start gallery section styles*/
+
 #gallery {
     display: -ms-grid;
     display: grid;
