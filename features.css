@@ -331,7 +331,7 @@ header nav ul li a {
   
   
 #feature .card-container {
-    width: 90vw;
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
