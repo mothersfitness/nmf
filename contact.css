@@ -787,10 +787,17 @@ body {
 /* end: schedule services styles */
 
 /* start: footer section styles */
-footer {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/footer-bg.jpg') top center no-repeat;
+footer {    
+  background: url(./foot.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background: url(./foot.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
   background-size: cover;
-  padding-bottom: 2rem;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  padding-top: 5rem;
+  position: relative;
+  text-align: center;
+  object-fit: cover;
 }
 
 .footer-container {
