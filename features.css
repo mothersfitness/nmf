@@ -1286,4 +1286,1272 @@ li.login{
     }
   }
 }
+
+
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation:landscape) 
+{
+    /* iPad landscape style here */
+    div.plan{
+      border-left: 8px solid #233EDE;
+      border-right: 8px solid #233EDE;
+      border-top: none;
+      border-bottom: 8px solid #233EDE;
+      background:  #34343a;
+      display: block;
+    }
+  
+    .hero-slide-item{
+        height: 81vh;
+    }
+    
+    h1.h1{
+      text-align: center;
+      background-color: #233EDE;
+      color: white;
+      font-size: 18px;
+    }
+  
+    #hero-slider .hero-slide-item>img{
+      background-size: cover;
+      background-position: center;
+     background-repeat: no-repeat;
+     object-fit: cover;
+  } 
+  
+    h2 {
+      font-size: 6rem;
+    }
+  
+    header nav {
+      max-width: 775px;
+    }
+  
+    .top-gym-logo {
+      margin: 0 1rem;
+    }
+  
+    .top-gym-logo a{
+        font-size: 18px;
+    }
+  
+    .upcoming-classes-box {
+      padding: 2rem 1.5rem 0.5rem;
+    }
+  
+    .upcoming-classes-box h4 {
+      margin-bottom: 1rem;
+    }
+  
+    .membership-cards-box .inner-container {
+      padding: 0.5rem 1.5rem 1.5rem;
+      height: 100%;
+      box-sizing: border-box;
+    }
+  
+    .membership-cards-box h2 {
+      font-size: 3.5rem;
+    }
+  
+    .personal-trainer-box {
+      padding: 2rem 1.5rem 1.5rem;
+    }
+  
+    .personal-trainer-box p {
+      font-size: 0.85rem;
+    }
+  
+    .butt{
+      border: 1px solid black;
+      background-color: blue;
+      color: white;
+      border-radius: 15px;
+      font-size: 1rem;
+      margin: 1rem 0;
+      height: 3rem;
+    }
+    .butt2{
+      border: 1px solid black;
+      background-color: rgb(131, 131, 32);
+      color: white;
+      border-radius: 15px;
+      font-size: 1rem;
+      margin: 1rem 0;
+      height: 3rem;
+    }
+    .butt3{
+      border: 1px solid black;
+      background-color: green;
+      color: white;
+      border-radius: 15px;
+      font-size: 1rem;
+      margin: 1rem 0;
+      height: 3rem;
+    }
+  
+    .butt:hover{
+      font-size: 1.2rem;
+      background-color: blue;
+      text-align: center;
+      border-bottom: blue;
+    }
+
+    h2 {
+      font-size: 4rem;
+      margin-top: 2rem;
+    }
+
+    .top-gym-logo a{
+      font-size: 18px;
+  }
+  
+    .flex {
+      display: block;
+    }
+
+    .flex .box {
+      margin: 0 auto;
+      width: 100% !important;
+      margin-top: 3rem;
+    }
+
+    .flex .box:first-child {
+      margin-top: 0;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.85);
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: static;
+    }
+    
+    #header-logo-mobile {
+      display: inline-block;
+    }
+
+    header nav {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      display: none;
+    }
+
+    header nav ul.flex {
+      display: block;
+    }
+
+    header nav ul li {
+      margin: 1rem 0;
+    }
+
+    header nav ul li:last-child {
+      margin-bottom: 2rem;
+    }
+
+    header nav ul li a {
+      font-size: 1.5rem;
+    }
+
+    #search {
+      position: static;
+      font-size: 1.5rem;
+    }
+
+    #hamburger-menu {
+      display: block;
+    }
+
+    #header-logo {
+      display: none;
+    }
+
+    #features .box .feature-info-container {
+      padding: 0 1rem;
+    }
+
+    #schedule-services .flex {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #schedule-services .flex > div.upcoming-classes-box,
+    #schedule-services .flex > div.membership-cards-box {
+      width: 48%;
+    }
+
+    #schedule-services .flex > div.personal-trainer-box {
+      width: 100%;
+      margin-top: 3rem;
+      background-size: cover;
+    }
+
+    .personal-trainer-box p {
+      font-size: 0.95rem;
+    }
+
+    .membership-cards-box .inner-container {
+      background-size: cover;
+    }
+
+    
+
+    
+  
+}
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation:portrait) 
+{
+    /* iPad portrait style here */
+    h2 {
+      font-size: 4rem;
+      margin-top: 2rem;
+    }
+
+    .top-gym-logo a{
+      font-size: 18px;
+  }
+  
+    .flex {
+      display: block;
+    }
+
+    .flex .box {
+      margin: 0 auto;
+      width: 100% !important;
+      margin-top: 3rem;
+    }
+
+    .flex .box:first-child {
+      margin-top: 0;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.85);
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: static;
+    }
+    
+    #header-logo-mobile {
+      display: inline-block;
+    }
+
+    header nav {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      display: none;
+    }
+
+    header nav ul.flex {
+      display: block;
+    }
+
+    header nav ul li {
+      margin: 1rem 0;
+    }
+
+    header nav ul li:last-child {
+      margin-bottom: 2rem;
+    }
+
+    header nav ul li a {
+      font-size: 1.5rem;
+    }
+
+    #search {
+      position: static;
+      font-size: 1.5rem;
+    }
+
+    #hamburger-menu {
+      display: block;
+    }
+
+    #header-logo {
+      display: none;
+    }
+
+    #features .box .feature-info-container {
+      padding: 0 1rem;
+    }
+
+    #schedule-services .flex {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #schedule-services .flex > div.upcoming-classes-box,
+    #schedule-services .flex > div.membership-cards-box {
+      width: 48%;
+    }
+
+    #schedule-services .flex > div.personal-trainer-box {
+      width: 100%;
+      margin-top: 3rem;
+      background-size: cover;
+    }
+
+    .personal-trainer-box p {
+      font-size: 0.95rem;
+    }
+
+    .membership-cards-box .inner-container {
+      background-size: cover;
+    }
+
+    
+}
+
+
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  /* CSS Rules Here */
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+
+
+}
+@media only screen
+
+  and (min-device-width: 414px)
+
+  and (max-device-width: 896px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  /* CSS Rules Here */
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+  
+
+
+}
+
+@media only screen
+
+  and (min-device-width: 414px)
+
+  and (max-device-width: 896px)
+
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  /* CSS Rules Here */
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+
+}
+
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 667px)
+
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  /* CSS Rules Here */
+
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+}
+
+
+@media only screen
+
+  and (min-device-width: 414px)
+
+  and (max-device-width: 736px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  /* CSS Rules Here */
+
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+}
+
+
+@media only screen
+
+  and (min-device-width: 320px)
+
+  and (max-device-width: 568px)
+
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  /* CSS Rules Here */
+
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+}
+
+
+
+@media only screen
+
+  and (min-device-width: 412px)
+
+  and (max-device-width: 870px)
+
+  and (-webkit-min-device-pixel-ratio: 2.6) {
+
+  /* CSS Rules Here */
+
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+}
+
+@media only screen
+
+  and (min-device-width: 412px)
+
+  and (max-device-width: 732px)
+
+  and (-webkit-min-device-pixel-ratio: 2.6) {
+
+  /* CSS Rules Here */
+
+  h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .top-gym-logo a{
+    font-size: 18px;
+}
+
+  .flex {
+    display: block;
+  }
+
+  .flex .box {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+
+  .flex .box:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+  }
+  
+  #header-logo-mobile {
+    display: inline-block;
+  }
+
+  header nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+  }
+
+  header nav ul.flex {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 1rem 0;
+  }
+
+  header nav ul li:last-child {
+    margin-bottom: 2rem;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  #search {
+    position: static;
+    font-size: 1.5rem;
+  }
+
+  #hamburger-menu {
+    display: block;
+  }
+
+  #header-logo {
+    display: none;
+  }
+
+  #features .box .feature-info-container {
+    padding: 0 1rem;
+  }
+
+  #schedule-services .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedule-services .flex > div.upcoming-classes-box,
+  #schedule-services .flex > div.membership-cards-box {
+    width: 48%;
+  }
+
+  #schedule-services .flex > div.personal-trainer-box {
+    width: 100%;
+    margin-top: 3rem;
+    background-size: cover;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.95rem;
+  }
+
+  .membership-cards-box .inner-container {
+    background-size: cover;
+  }
+
+}
 /* end: media queries */
