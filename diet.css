@@ -469,6 +469,11 @@ header nav ul li a {
 }
 /* end: hero section styles */
 
+.viddy{
+  padding: 10px 5px;
+}
+
+
 /* start: trainers section styles */
 #trainers {
   background: rgb(63, 63, 202);
