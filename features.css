@@ -1115,20 +1115,6 @@ footer small a {
 }
 
  
-#feature .card-container .card .content button {
-height: 0.5rem;
-width: 14rem;
-background: transparent;
-border-bottom: 0.2rem solid lightblue;
-border-top: none;
-outline: none;
-font-size: 1rem;
-cursor: pointer;
-color: white;
-font-weight: bold;
-margin: 0px 0;
-}
- 
 #feature .card-container .card{
 justify-content: space-between;
 margin: 39px ;
